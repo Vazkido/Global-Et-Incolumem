@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="chrome://global/locale/intl.css" type="text/css"?>
+<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">XML Parsing Error: unclosed token
+Location: https://html.themexriver.com/fastrans/assets/fonts/fa-brands-400.svg
+Line Number 737, Column 5:<sourcetext>    &lt;glyph glyph-name="cc-amex" unicode="&amp;#xf1f3;" horiz-adv-x="576" 
+----^</sourcetext></parsererror>
