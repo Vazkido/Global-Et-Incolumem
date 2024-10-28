@@ -221,7 +221,7 @@
                     <div class="panel-icon"><i class="flaticon-015-scale"></i></div>
                     <div class="panel-heading"> 
                       <h3>Affordable Price, Certified Forwarders</h3>
-                    </div><a href="javascript:void(0)"><i class="icon-arrow-right"></i></a>
+                    </div><a href="logistics"><i class="icon-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -234,7 +234,7 @@
                     <div class="panel-icon"><i class="flaticon-017-pallet"></i></div>
                     <div class="panel-heading"> 
                       <h3>Affordable Price, Certified Forwarders</h3>
-                    </div><a href="javascript:void(0)"><i class="icon-arrow-right"></i></a>
+                    </div><a href="logistics"><i class="icon-arrow-right"></i></a>
                   </div>
                 </div>
               </div>

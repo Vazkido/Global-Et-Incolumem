@@ -1,322 +1,192 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	 <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
- <meta name="keywords"content="Multitrack Cargo Express and Courier Services, Logistics, mailroom , warehousing , best courier service worlwide, global logistics company, ecommerce delivery, ecommerce courier service ,local shipment, international shipment, same day delivery , logistics support, Amazon delivery, delivery services, delivery service for ecommerce, ecommerce delivery in Globally , deal dey delivery, Global logistics company">
-        
-<meta name="description" content="Multitrack Cargo Express is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-<meta http-equiv="ImageToolbar" content="No"/>
-<meta http-equiv="content-language" content="en-US"/>
-<meta name="title" content="Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide"/>
+<?php require_once("inc/header.php");?>
+   <title> Ocean Freight Forwarding - Global Et Incolumem </title>
+   <!-- Document Wrapper-->
+    <div class="wrapper clearfix" id="wrapperParallax">
+      
+    <!-- navigation bar -->
+    <?php require_once("inc/topNavbar.php");?>
+     <section class="page-title page-title-3 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
+        <div class="bg-section"><img src="asset/images/page-titles/5.jpg" alt="Background"/></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="title text-center">
+                <div class="title-heading">
+                  <h1>Ocean Freight Forwarding </h1>
+                </div>
+               
+              <!-- End .title -->
+            </div>
+            <!-- End .col-lg-8 -->
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+	<!-- Loading Popup -->
+<div id="loadingPop">
+    <input 
+        type="button" 
+        class="b-close" 
+        style="cursor:pointer; position:absolute; right:10px; top:5px; font-size:18px; font-weight:bold; display:none;" 
+        id="CloseMeNowLog" 
+    />
 
-<meta property="og:type" content="Logistics and Courier Services" />
-<meta property="og:title" content="Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide" />
-<meta property="og:description" content="Multitrack Cargo Express is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
-<meta name="keywords">
-<meta property="og:site_name" content="Multitrack Cargo Express"/>
+</div>
+
+<!-- Tracking Section -->
+<section class="ft1-tracking-section py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+
+            <!-- Tracking Column -->
+            <div class="tracking-column col-lg-7 col-md-12 mb-4 mb-lg-0">
+                <div class="card shadow-sm p-4 border-0">
+                    <!-- Tracking Form -->
+                    <div class="tracking-form">
+                        <h4 class="mb-4 text-center">Track Your Shipment</h4>
+                        <form 
+                            method="post" 
+                            class="search-form" 
+                            id="frmTrack" 
+                            name="frmTrack" 
+                            action="" 
+                            onsubmit="return false"
+                        >
+                            <div class="form-group input-group">
+                                <input 
+                                    type="search" 
+                                    id="shipment_tracking_no" 
+                                    name="shipment_tracking_no" 
+                                    class="form-control" 
+                                    value="" 
+                                    placeholder="Enter Your Tracking Number" 
+                                    required
+                                />
+                                <div class="input-group-append">
+                                    <button 
+                                        class="btn btn-primary" 
+                                        name="submitTrackNo" 
+                                        onclick="trackNowFunc()"
+                                    >
+                                        Track & Trace 
+                                        <span class="fas fa-angle-double-right ml-2"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Column -->
+            <div class="featured-column col-lg-5 col-md-12">
+                <div class="row">
+                    <!-- Feature Block 1 -->
+                    <div class="feature-block col-6 mb-4">
+                        <div class="card h-100 text-center p-4 shadow-sm border-0">
+                            <div class="icon mb-3">
+                                <i class="flaticon-discount" style="font-size: 2rem; color: #ff6f61;"></i>
+                            </div>
+                            <h6>Affordable Premium Shipping</h6>
+                        </div>
+                    </div>
+
+                    <!-- Feature Block 2 -->
+                    <div class="feature-block col-6 mb-4">
+                        <div class="card h-100 text-center p-4 shadow-sm border-0">
+                            <div class="icon mb-3">
+                                <i class="flaticon-shield-2" style="font-size: 2rem; color: #28a745;"></i>
+                            </div>
+                            <h6>Safe & Reliable Courier Services</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+      <section class="service-single case-study case-study-2 pb-70" id="service-single">
+        <div class="container">
+          <div class="row">
+            <!-- 
+            ============================
+            Sidebar Area
+            ============================
+            -->
+            <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-lg-0">
+              <div class="sidebar sidebar-case-study">
+                <!-- Start .widget-categories-->
+                <div class="widget widget-categories">
+                  <div class="widget-title">
+                    <h5>transport services</h5>
+                  </div>
+                  <div class="widget-content">
+                    <ul class="list-unstyled">
+                      
+                      <li><a href="international-freight">Air freight</a></li>
+                      <li><a href="domestic-freight">Domestic freight</a></li>
+                      <li><a href="freight-forwarder">Freight Forwarding</a></li>
+                      <li><a href="freight-consultation">Freight-consultation</a></li> 
+                    </ul>
+                  </div>
+                </div>
+                <!-- End .widget-categories -->
 
 
-    <title>Ocean Freight Forwarding :: Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide</title>
+                <!-- Start .widget-reservation-->
+                <div class="widget widget-reservation"><img src="asset/images/blog/sidebar/reservation.jpg" alt="Background Image"/>
+                  <div class="widget-content">
+                    <h5>Transportation of Ocean Freight Forwarding:</h5>
+                    <p>WMultitrack Cargo Express offers a flexible range of global and local Ocean Freight services for both Less-Than-Container Load (LCL) and Full-Container Load (FCL) shipments.</p><a class="btn btn--transparent btn--inverse btn--block" href="contact-us">Schedule An Appointment</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End .col-lg-4 -->
+         
+      <!-- Main Content Area -->
+      <div class="col-sm-12 col-md-12 col-lg-8">
+        <div class="case-study-entry">
+          <div class="entry-content">
+            <div class="entry-bio">
+             <h5>Transportation of Ocean Freight Forwarding:</h5>
+              <p>Multitrack Cargo Express offers a flexible range of global and local Ocean Freight services for both Less-Than-Container Load (LCL) and Full-Container Load (FCL) shipments.</p>
+			  <p>With our broad product range we cover different equipment types and consolidation services to ensure your cargo reaches the right place, at the right time in a cost-efficient way. In order to deliver highest reliability we have planned space protection from every major container port in the world.</p>
 
-	
-	
-	
-	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+              <h5>Expertise:</h5>
+			  <p>We have logistics experts specializing in major industry sectors, so we can help you improve your performance and drive out costs.</p>
+            
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
-	<link rel="stylesheet" href="assets/css/flaticon.css">
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/css/video.min.css">
-	<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-	<link rel="stylesheet" href="assets/css/slick.css">
-	<link rel="stylesheet" href="assets/css/rs6.css">
-	<link rel="stylesheet" href="assets/css/slick-theme.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-	<div id="preloader"></div>
-	<div class="up">
-		<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
-	</div>
-<!-- Start of header section
-	============================================= -->
-	<?php require_once("header.php");?>
-<!-- End of header section
-	============================================= -->
+    
+    <h5 class="text-secondary"><i>10+ Years Of Excellent Services</i></h5>
+              <h5>Global Reach:</h5>
+             <p>We're on the ground in over 190 countries allowing you to export and import from more locations worldwide. Providing more ocean loops and services than anyone else.<p>
 
-<!-- Start of Breadcrumb section
-	============================================= -->
-	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="assets/img/bg/bread-bg.jpg">
-		<span class="background_overlay"></span>
-		<span class="design-shape position-absolute"><img src="assets/img/shape/tmd-sh.png" alt=""></span>
-		<div class="container">
-			<div class="ft-breadcrumb-content headline text-center position-relative">
-				<h2>Ocean Freight Forwarding</h2>
-				<div class="ft-breadcrumb-list ul-li">
-					<ul>
-						<li><a href="./">Home</a></li>
-						<li>Ocean Freight Forwarding</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>	
-<!-- End of Breadcrumb section
-	============================================= -->
+    
+              <h5>Quality Control:</h5>
+             <p>SML COurier Ocean Freight shipments include a wide range of quality controlled equipment types. We strive for on time deliverability and provide end-to-end visibility.</p>
+           
+            </div>
+          </div>
+        </div>
 
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	<!-- Tracking Section -->
-		<section class="ft1-tracking-section">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="row clearfix">
-						<!-- Tracking Column -->
-						<div class="tracking-column col-lg-7 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<!-- Tracking Form -->
-								<div class="tracking-form">
-			<form method="post" class="search-form" id="frmTrack" name="frmTrack" action="" onsubmit="return false">
-										<div class="form-group">
-		
-<input type="search" id="shipment_tracking_no" name="shipment_tracking_no" value="" placeholder="Enter Your Tracking Number" required>
-
-
-<button class="theme-btn btn-style-two" name="submitTrackNo" onclick="trackNowFunc()">Track & Trace <span class="icon fas fa-angle-double-right"></span></button>
-
-
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-						
-						
-						
-						
-						
-						<!-- Featured Column -->
-						<div class="featured-column col-lg-5 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="row clearfix">
-								
-									<!-- Feature Block -->
-									<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-										<div class="inner-box">
-											<div class="icon flaticon-discount"></div>
-											<h6>Affordable Premium Shipping!</h6>
-										</div>
-									</div>
-									
-									<!-- Feature Block -->
-									<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-										<div class="inner-box">
-											<div class="icon flaticon-shield-2"></div>
-											<h6>Safe & Reliable <br> Courier Services!</h6>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Tracking Section -->
-
-		
-
-		
-	
-
-<!-- Start of About section
-	============================================= -->
-	<section id="ft-about" class="ft-about-section">
-		<div class="container">
-			<div class="ft-about-content">
-				<div class="row">
-					<div class="col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="ft-about-img-exp position-relative">
-							<div class="ft-about-exp-area headline pera-content position-absolute">
-								<div class="ft-about-exp-img">
-									<img src="assets/img/shape/exp-sh1.png" alt="">
-								</div>
-								<div class="ft-about-exp-text position-absolute">
-									<h3><span class="counter">10</span><b>+</b> 
-									Years</h3>
-									<p>
-									Of Excellent Service
-									</p>
-								</div>
-							</div>
-							<div class="ft-about-img">
-								<img src="assets/images/resource/sea-freight.jpg" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="ft-about-text-wrapper">
-							<div class="ft-section-title headline pera-content">
-								<span class="sub-title">OCEAN FREIGHT</span>
-								<h2>
-								 The World is Your Oyster
-								</h2>
-								<p>
-								Multitrack Cargo Express offers a flexible range of global and local Ocean Freight services for 
-								both Less-Than-Container Load (LCL) and Full-Container Load (FCL) shipments. 
-								</p>
-								
-								<br>
-								
-								<p style="font-size:13px; line-height:26px;">
-		With our broad product range we cover different equipment types and consolidation services to ensure your cargo reaches 
-		the right place, at the right time in a cost-efficient way. In order to deliver highest reliability 
-		we have planned space protection from every major container port in the world.
-		</p>
-							</div>
-							
-							
-							<div class="ft-about-feature-list-warpper">
-								<div class="ft-about-feature-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-									<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-double-right-arrows-angles"></i>
-									</div>
-									<div class="ft-about-feature-text headline pera-content">
-										<h3>Expertise:</h3>
-										
-		<p style="font-size:13px; line-height:26px;">
-		 We have logistics experts specializing in major industry sectors, 
-		 so we can help you improve your performance and drive out costs. 
-		</p>
-		
-								
-										
-									</div>
-								</div>
-								<div class="ft-about-feature-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-									<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-double-right-arrows-angles"></i>
-									</div>
-									<div class="ft-about-feature-text headline pera-content">
-										<h3>Global Reach:</h3>
-										
-										
-										<p style="font-size:13px; line-height:26px;">
-We're on the ground in over 190 countries allowing you to export and import from more locations worldwide. 
-Providing more ocean loops and services than anyone else. 
-										</p>
-									</div>
-								</div>
-								
-								
-								
-								
-								
-								
-								
-								
-		<div class="ft-about-feature-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-									<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-double-right-arrows-angles"></i>
-									</div>
-									<div class="ft-about-feature-text headline pera-content">
-										<h3>Quality Control:</h3>
-										
-										
-										<p style="font-size:13px; line-height:26px;">
-										SML COurier Ocean Freight shipments include a wide range of quality controlled equipment types. 
-										We strive for on time deliverability and provide end-to-end visibility.
-										</p>
-									</div>
-								</div>
-						
-								
-								
-		
+            </div>
+            <!-- End .col-lg-8-->
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
 
 
 
-						
-								
-								
-								
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<!-- End of About section
-	============================================= -->
-	
+<?php require_once("inc/footer.php");?>
 
-
-
-
-
-
-
-
-
-
-
-<!-- Start of why choose section
-	============================================= -->
-	
-<!-- End of of why choose section
-	============================================= -->	
-
-
-
-
-<!-- Start of Footer section
-	============================================= -->
-	<?php require_once("footer.php");?>
-<!-- End of Footer section
-	============================================= -->						
-
-	<!-- For Js Library -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="assets/js/appear.js"></script>
-	<script src="assets/js/slick.js"></script>
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/js/jquery.filterizr.js"></script>
-	<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/jquery.cssslider.min.js"></script>
-	<script src="assets/js/rbtools.min.js"></script>
-	<script src="assets/js/rs6.min.js"></script>
-	<script src="assets/js/script.js"></script>
-	
-	
-	
+	<script src="asset/js/jquery.min.js"></script>
 	<script src="js/jquery.bpopups2.min.js"></script>
 <script language="javascript" type="text/javascript">
 
@@ -444,7 +314,3 @@ return false;
 
 
 </script>
-
-
-</body>
-</html>		

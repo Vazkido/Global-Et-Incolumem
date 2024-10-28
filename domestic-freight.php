@@ -150,70 +150,48 @@
               <!-- Start .case-study-entry-->
               <div class="case-study-entry">
                 <div class="entry-content">
-                  <div class="entry-bio">
-                    <h5>overview</h5>
-                    <p>We combine our air, ocean, road and rail freight products with a range of specialty services & expertise to support your domestic freight forwarding needs. A choice of modes & service levels that allows you to customize handling and delivery of your goods domestically.</p>
-                    <p>Domestic freight is commonly referred to as road freight or freight trucking. While some companies can also offer air freight shipping, we offer domestic trucking, rail and intermodal, and ocean freight.</p>
-                    <p>Known for our expert handling of routine over-the-road shipments, We also provide time-critical and special freight services that require extra care or special handling while still meeting your company's specific delivery time requirements. Our wide range of domestic freight services will get your goods safely across the city, state, or country, and over the road, by rail, or by sea.</p>
-					<p> We offer you Full-Container-Load (FCL) Ocean Freight options to provide reliable, flexible & cost efficient transportation globally. Global Et Incolumem offers weekly services across major trade routes. Our team of experts handle your shipments end-to-end through our strong global network. Also our Door to Door, We offer a wide selection of door-to-door services for shipping any item. From simple parcel delivery to complex freight requirements.</p>
-                  </div>
+                
+      <div class="col-sm-12 col-md-12 col-lg-8">
+        <div class="case-study-entry">
+          <div class="entry-content">
+            <div class="entry-bio">
+              <h5>Domestic Freight Overview</h5>
+              <p>Our domestic freight services guarantee seamless and fast delivery across the country, ensuring your goods are transported securely and on time. Whether it's small parcels or bulk shipments, we have you covered with our reliable logistics network.</p>
 
-                  <div class="entry-bio entry-bio-2">
-                    <h5>stats &amp; charts </h5>
-                    <div class="row">
-                      <div class="col-12 col-lg-6">
-                        <p>Our mix of company-owned and contractor asset allows us to retain optimal levels of control whilst expanding our reach to over 96% of towns in Australia. With 40 years of LTL experience, we are now a trusted LTL freight provider for shippers of all sizes and commodity types.</p>
-                        <p>
-                           Our LTL service extends to all states and territories, and includes multiple per-week services to places many others only serve occasionally, including Darwin, Alice Springs, Newman, Mt. Isa, Launceston and Burnie.</p>
-                        <p>
-                           We pride ourselves on providing the best transport and shipping services currently available in Australia. Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience, ensure all freight is are shipped.</p>
-                      </div>
-                      <div class="col-12 col-lg-6"> <img class="entry-chart" src="asset/images/chart/chart-2.png" alt="Chart image"/></div>
-                    </div>
-                  </div>
+              <h5>Why Choose Our Domestic Freight Services?</h5>
+              <ul>
+                <li><strong>Speed & Reliability:</strong> Fast and dependable delivery solutions across cities and regions.</li>
+                <li><strong>Cost-Effective Options:</strong> Choose between economy or express freight based on your budget and urgency.</li>
+                <li><strong>Nationwide Coverage:</strong> We operate across all major cities and rural areas for comprehensive service.</li>
+                <li><strong>Real-Time Tracking:</strong> Monitor your shipment's journey with our 24/7 tracking tool.</li>
+                <li><strong>Special Handling:</strong> Safe transportation for fragile, high-value, or perishable items.</li>
+              </ul>
 
-				<!-- Why Us -->
-                  <div class="entry-why">
-                    <div class="entry-bio">
-                      <h5>why us!</h5>
-                      <p>We continue to pursue that same vision in today's complex, uncertain world, working every day to earn our customers’ trust! During that time, we’ve become expert in freight transportation by air and all its related services. We work closely with all major airlines around the world.</p>
-                    </div>
-                    <div class="row"> 
-                      <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
-                          <div class="entry-topic-body">
-                            <h5>Quality Control System</h5>
-                            <p>We enhance our industry operations by relieving you of the worries associated with freight forwarding.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
-                          <div class="entry-topic-body">
-                            <h5>Highly Professional Staf</h5>
-                            <p>We are one of the Nations largest automotive parts recyclers and a widely recognized leader utilizing  </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
-                          <div class="entry-topic-body">
-                            <h5>Satisfaction Guarantee</h5>
-                            <p>An integrated approach to providing engineering services allows our clients to benefit from the commercial</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
-                          <div class="entry-topic-body">
-                            <h5>Accurate Processes</h5>
-                            <p>We’ll work with you on your project, large or small. Together we’ll fine-tune your new construction</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-				  <!--  End Why Us -->
+              <h5>Domestic Freight Capabilities</h5>
+              <ul>
+                <li><strong>Same-Day Delivery:</strong> Urgent deliveries within the same day.</li>
+                <li><strong>Next-Day Delivery:</strong> Guaranteed delivery the next business day.</li>
+                <li><strong>Bulk & Pallet Shipments:</strong> Ideal for businesses shipping large quantities.</li>
+                <li><strong>Door-to-Door Service:</strong> Hassle-free pickup and delivery to the recipient’s address.</li>
+                <li><strong>Temperature-Controlled Freight:</strong> Transport solutions for sensitive items like food or medicine.</li>
+              </ul>
+
+              <h5>How Domestic Freight Benefits Your Business</h5>
+              <ul>
+                <li><strong>Reduce Costs:</strong> Lower shipping expenses with optimized logistics routes.</li>
+                <li><strong>Expand Customer Base:</strong> Reach customers nationwide with fast delivery options.</li>
+                <li><strong>Reliable Supply Chain:</strong> Minimize delays and improve operational efficiency.</li>
+                <li><strong>Sustainability:</strong> We prioritize eco-friendly transportation methods to reduce carbon emissions.</li>
+              </ul>
+
+              <div class="cta text-center mt-4">
+                <h5>Partner with Us for Domestic Freight Solutions</h5>
+                <p>Let us handle your domestic shipping needs with precision and care. With our wide network and reliable service, your goods will always arrive on time.</p>
+                <a class="btn btn-primary" href="contact-us">Get a Quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
             </div>

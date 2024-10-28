@@ -155,24 +155,39 @@
                 <div class="entry-content">
                   <div class="entry-bio">
                     <h5>overview</h5>
-                    <p>Our airfreight staff attaches great importance to customizing the booking process for our customers. That’s why we strive to find the air freight solution that best suits your needs. We’ll ask you when the freight is available, what the required delivery date is, and if there’s potential to save on time or cost. Your answers to these and other questions help us decide if you should book the air freight as direct. We'll also see if our sea-air service is a better solution for you.</p>
-                    <p>We have more than twenty years of experience. During that time, we’ve become expert in freight transportation by air and all its related services. We work closely with all major airlines around the world. Ongoing negotiations ensure that we always have the cargo space we need and the ability to offer you competitive rates - even during the high season.</p>
-                    <p>Where possible, we’ll erect and dismantle Unit Load Devices (ULDs), reducing significantly the risk of damage to your shipment and saving you time and expense. We can do this because many of our freight stations have their own ground transportation at or around the airport. </p>
-                  </div>
-                  <div class="entry-bio entry-bio-2">
-                    <h5>stats &amp; charts </h5>
-                    <div class="row">
-                      <div class="col-12 col-lg-6">
-                        <p>Our mix of company-owned and contractor asset allows us to retain optimal levels of control whilst expanding our reach to over 96% of towns in Australia. With 40 years of LTL experience, we are now a trusted LTL freight provider for shippers of all sizes and commodity types.</p>
-                        <p>
-                           Our LTL service extends to all states and territories, and includes multiple per-week services to places many others only serve occasionally, including Darwin, Alice Springs, Newman, Mt. Isa, Launceston and Burnie.</p>
-                        <p>
-                           We pride ourselves on providing the best transport and shipping services currently available in Australia. Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience, ensure all freight is are shipped.</p>
-                      </div>
-                      <div class="col-12 col-lg-6"> <img class="entry-chart" src="asset/images/chart/chart-2.png" alt="Chart image"/></div>
-                    </div>
+                    <p>Deliver your goods anywhere in the world, faster than ever. With our air freight services, we ensure seamless, efficient, and reliable cargo delivery that meets your business needs, no matter the destination.</p>
+                    <p>We have more than twenty years of experience. During that time, we’ve become expert in freight transportation by air and all its related services. We work closely with all major airlines around the world. Ongoing negotiations ensure that we always have the cargo space we need and the ability to 
                   </div>
 
+                    <h5>Why Choose Our Air Freight Services?</h5>
+    <ul>
+      <li><strong>Speed & Efficiency:</strong> Our partnerships with major airlines ensure your cargo reaches its destination on time, every time.</li>
+      <li><strong>Global Network:</strong> We connect you with a vast network of airports and customs brokers worldwide.</li>
+      <li><strong>Flexible Solutions:</strong> Offering both express and economy air freight to meet your specific needs — whether urgent or cost-effective.</li>
+      <li><strong>Real-time Tracking:</strong> Track your shipment 24/7 with our advanced tracking tools for complete visibility.</li>
+      <li><strong>Customs Clearance Support:</strong> Our experienced personnel handle customs clearance to ensure smooth deliveries.</li>
+    </ul>
+
+    <h5>Our Air Freight Capabilities</h5>
+    <ul>
+      <li><strong>Same-Day & Next-Day Delivery:</strong> Expedited air freight for urgent shipments.</li>
+      <li><strong>Door-to-Door Delivery:</strong> We pick up and deliver directly to the recipient.</li>
+      <li><strong>Handling Fragile & Specialized Goods:</strong> Safe handling of high-value, perishable, or delicate items.</li>
+      <li><strong>Temperature-Controlled Shipments:</strong> Transport solutions for sensitive products, such as pharmaceuticals.</li>
+      <li><strong>Charter Services:</strong> Customized solutions for bulk and oversized cargo.</li>
+    </ul>
+
+    <h5>How Air Freight Benefits Your Business</h5>
+    <ul>
+      <li><strong>Shortened Transit Times:</strong> Reduce lead times and meet urgent deadlines to enhance supply chain efficiency.</li>
+      <li><strong>Global Market Access:</strong> Expand into new markets with faster delivery services across continents.</li>
+      <li><strong>Competitive Advantage:</strong> Stay ahead of competitors by offering faster shipping options to customers.</li>
+      <li><strong>Sustainability Commitment:</strong> We prioritize fuel-efficient flight routes to minimize environmental impact.</li>
+    </ul>
+
+
+  </div>
+               
 				<!-- Why Us -->
                   <div class="entry-why">
                     <div class="entry-bio">
@@ -181,7 +196,7 @@
                     </div>
                     <div class="row"> 
                       <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
+                        <div class="entry-bio entry-topic"> 
                           <div class="entry-topic-body">
                             <h5>Quality Control System</h5>
                             <p>We enhance our industry operations by relieving you of the worries associated with freight forwarding.</p>
@@ -189,7 +204,7 @@
                         </div>
                       </div>
                       <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
+                        <div class="entry-bio entry-topic"> 
                           <div class="entry-topic-body">
                             <h5>Highly Professional Staf</h5>
                             <p>We are one of the Nations largest automotive parts recyclers and a widely recognized leader utilizing  </p>
@@ -197,7 +212,7 @@
                         </div>
                       </div>
                       <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
+                        <div class="entry-bio entry-topic"> 
                           <div class="entry-topic-body">
                             <h5>Satisfaction Guarantee</h5>
                             <p>An integrated approach to providing engineering services allows our clients to benefit from the commercial</p>
@@ -205,7 +220,7 @@
                         </div>
                       </div>
                       <div class="col-12 col-lg-6">
-                        <div class="entry-bio entry-topic"> <i class="fas fa-check"></i>
+                        <div class="entry-bio entry-topic"> 
                           <div class="entry-topic-body">
                             <h5>Accurate Processes</h5>
                             <p>We’ll work with you on your project, large or small. Together we’ll fine-tune your new construction</p>

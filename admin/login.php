@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Sign - In | Multitrack Cargo Express | The Best way to invest in Forex, Cryptocurrencies, Stocks, and Binary Option | Best Crypto Wallets</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico">
 	<link href="./vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
 
@@ -85,7 +85,7 @@
                             <div class="col-xl-12">
                                 <div class="auth-form" style="padding:10px 30px;">
 									<div class="text-center mb-3">
-										<img src="images/logo-full.png" alt="">
+										<img src="./logowhite.png" style="width:220px;" alt="">
 									</div>
                                     <h4 class="text-center mb-4">Admin Login</h4>
                         <form class="login-form" id="logFormNew" name="logFormNew" onsubmit="return false;">

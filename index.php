@@ -42,7 +42,7 @@
                       <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                       <h2 class="slide-headline">Air Freight That<br/>Saves Your Time!</h2>
                       <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                      <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                      <div class="slide-buttons"><a class="btn btn--primary" href="about-us">more about us</a><a class="btn btn--white" href="about-us">our services</a></div>
                     </div>
                     <!-- End .slide-content -->
                   </div>
@@ -61,7 +61,7 @@
                       <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                       <h2 class="slide-headline">innovation sea<br/>transportation!</h2>
                       <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                      <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                      <div class="slide-buttons"><a class="btn btn--primary" href="about-us">more about us</a><a class="btn btn--white" href="about-us">our services</a></div>
                     </div>
                     <!-- End .slide-content -->
                   </div>
@@ -80,7 +80,7 @@
                       <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                       <h2 class="slide-headline">your flexible<br/>road directions!</h2>
                       <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                      <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                      <div class="slide-buttons"><a class="btn btn--primary" href="about-us">more about us</a><a class="btn btn--white" href="about-us">our services</a></div>
                     </div>
                     <!-- End .slide-content -->
                   </div>
@@ -98,38 +98,43 @@
       Services Bar Section
       ============================
       -->
-      <section class="services-bar" id="servicesBar">
-        <div class="container">
-          <div class="row no-gutters">
-            <div class="col-12 col-md-6 col-lg-3 services-bar-card active"><i class="thumb-icon flaticon-002-warehouse"></i>
-              <div class="thumb-body"> 
-                <p>sustainable </p>
-                <h3> <a href="service-warehouse.html">warehousing services</a></h3>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 services-bar-card"><i class="thumb-icon flaticon-035-plane"></i>
-              <div class="thumb-body"> 
-                <p>reliable</p>
-                <h3> <a href="service-air-freight.html">air freight services</a></h3>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 services-bar-card"><i class="thumb-icon flaticon-010-cargo"> </i>
-              <div class="thumb-body"> 
-                <p>innovative</p>
-                <h3> <a href="service-ocean-freight.html">ocean freight services</a></h3>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 services-bar-card"><i class="thumb-icon flaticon-004-trailer-1"></i>
-              <div class="thumb-body"> 
-                <p>flexible</p>
-                <h3> <a href="service-road-freight.html"> road freight services</a></h3>
-              </div>
-            </div>
-          </div>
-          <!-- End .row-->
+    <section class="services-bar" id="servicesBar">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-12 col-md-6 col-lg-3 services-bar-card active">
+        <i class="thumb-icon flaticon-002-warehouse"></i>
+        <div class="thumb-body">
+          <p>sustainable</p>
+          <h3><a href="#">warehousing services</a></h3>
         </div>
-        <!-- End .container-->
-      </section>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 services-bar-card">
+        <i class="thumb-icon flaticon-035-plane"></i>
+        <div class="thumb-body">
+          <p>reliable</p>
+          <h3><a href="air-freight-carrier">air freight services</a></h3>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 services-bar-card">
+        <i class="thumb-icon flaticon-010-cargo"></i>
+        <div class="thumb-body">
+          <p>innovative</p>
+          <h3><a href="ocean-freight-forwarding">ocean freight services</a></h3>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 services-bar-card">
+        <i class="thumb-icon flaticon-004-trailer-1"></i>
+        <div class="thumb-body">
+          <p>flexible</p>
+          <h3><a href="road-freight-forwarding">road freight services</a></h3>
+        </div>
+      </div>
+    </div>
+    <!-- End .row-->
+  </div>
+  <!-- End .container-->
+</section>
+
       <!--
       ============================
       About #1 Section
@@ -163,7 +168,7 @@
                 <div class="row">
                   <div class="col-12 col-lg-7">
                     <div class="block-left"> 
-                      <p>Equita Group is a representative logistics operator providing full range of service in the sphere of customs clearance transportation worldwide for any cargo</p>
+                      <p>Global Et Incolumem  is a representative logistics operator providing full range of service in the sphere of customs clearance transportation worldwide for any cargo</p>
                       <p>We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personnel, utilising the latest communications, tracking and combined with experience through integrated supply chain solutions!</p>
                     </div>
                   </div>
@@ -244,7 +249,7 @@
                   <div class="employee-info"> 
                     <div class="employee-img"> <img src="asset/images/testimonial/5.jpg" alt="image"/></div>
                     <div class="employee-body"> 
-                      <h6>(002) 01061245741</h6>
+                      <h6>+447414487332</h6>
                       <p>Sales Representative</p>
                     </div>
                   </div>
@@ -310,7 +315,7 @@
             <!--End .col-lg-5-->
             <div class="col-12 col-lg-6 offset-lg-1">
               <div class="prief-set">
-                <p>We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personnel, utilising communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, Equita drives sustainable competitive advantages to some of Australia's largest companies.</p>
+                <p>We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personnel, utilising communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, Global Et Incolumem drives sustainable competitive advantages to some of Australia's largest companies.</p>
                 <ul class="advantages-list">
                   <li><i class="fas fa-check-circle"></i> Quality Control System</li>
                   <li><i class="fas fa-check-circle"></i> Unrivalled workmanship</li>
@@ -390,7 +395,7 @@
                       <div class="testimonial-img"><img src="asset/images/testimonial/3.jpg" alt="Testimonial Author"/></div>
                       <div class="testimonial-content">
                         <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                        <p>Equita Logistics International customer service is some of the best we have ever had with ocean  we like to ship as much as possible with you all.</p>
+                        <p>Global Et Incolumem Logistics International customer service is some of the best we have ever had with ocean  we like to ship as much as possible with you all.</p>
                         <div class="testimonial-meta">
                           <h4>John R Peter</h4>
                           <p>movein</p>
@@ -406,10 +411,10 @@
                       <div class="testimonial-img"><img src="asset/images/testimonial/4.jpg" alt="Testimonial Author"/></div>
                       <div class="testimonial-content">
                         <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                        <p>Equita Logistics International customer service is some of the best we have ever had with ocean  we like to ship as much as possible with you all.</p>
+                        <p>Global Et Incolumem Logistics International customer service is some of the best we have ever had with ocean  we like to ship as much as possible with you all.</p>
                         <div class="testimonial-meta">
-                          <h4>James Wane</h4>
-                          <p>James Wane</p>
+                          <h4>Gabriel  White</h4>
+                          <p>Equita Deliveries</p>
                         </div>
                       </div>
                     </div>
@@ -419,12 +424,12 @@
                   <div class="testimonial-panel-warp">
                     <div class="testimonial-icon"><i class="icon-Quote-Icon"></i></div>
                     <div class="testimonial-body">
-                      <div class="testimonial-img"><img src="asset/images/testimonial/3.jpg" alt="Testimonial Author"/></div>
+                      <div class="testimonial-img"><img src="asset/images/avatar2.jpg" alt="Testimonial Author"/></div>
                       <div class="testimonial-content">
                         <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                        <p>Equita Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
+                        <p>Global Et Incolumem Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
                         <div class="testimonial-meta">
-                          <h4>Marko Smith</h4>
+                          <h4>Jane Francis</h4>
                           <p>Aify Agency</p>
                         </div>
                       </div>
@@ -450,43 +455,23 @@
           <div class="row"> 
             <div class="col-12 col-lg-4">
               <div class="accordion accordion-4" id="accordion01">
-                <h4 class="panel">global locations</h4>
+                <h4 class="panel">global location</h4>
                 <div class="card">
-                  <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-1">london office</a></div>
+                  <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-1">Office</a></div>
                   <div class="collapse show" id="collapse01-1" data-parent="#accordion01">
                     <div class="card-body">
                       <ul class="list-unstyled info">
-                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">New York 11226 United States.</a></li>
-                        <li><span class="fas fa-envelope"></span><a href="mailto::Equita@7oroof.com">Equita@7oroof.com</a></li>
-                        <li><span class="fas fa-phone-alt"></span><a href="tel:01061245741">(002) 01061245741</a></li>
+                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">Street 43 Marylebone High St </a></li>
+                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">Marylebone </a></li>
+                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">London Region</a></li>
+                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">Postal Code: W1U 4QD</a></li>
+                        <li><span class="fas fa-envelope"></span><a href="mailto::glcourierservice147@outlook.com">glcourierservice147@outlook.com</a></li>
+                        <li><span class="fas fa-phone-alt"></span><a href="tel:447414487332">+447414487332</a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-2">berlin office</a></div>
-                  <div class="collapse" id="collapse01-2" data-parent="#accordion01">
-                    <div class="card-body">
-                      <ul class="list-unstyled info">
-                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">New York 11226 United States.</a></li>
-                        <li><span class="fas fa-envelope"></span><a href="mailto::Equita@7oroof.com">Equita@7oroof.com</a></li>
-                        <li><span class="fas fa-phone-alt"></span><a href="tel:01061245741">(002) 01061245741</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-3">manchester office</a></div>
-                  <div class="collapse" id="collapse01-3" data-parent="#accordion01">
-                    <div class="card-body">
-                      <ul class="list-unstyled info">
-                        <li><span class="fas fa-map-marker-alt"></span><a href="javascript:void(0)">New York 11226 United States.</a></li>
-                        <li><span class="fas fa-envelope"></span><a href="mailto::Equita@7oroof.com">Equita@7oroof.com</a></li>
-                        <li><span class="fas fa-phone-alt"></span><a href="tel:01061245741">(002) 01061245741</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -499,3 +484,7 @@
 
 </div>
     <?php require_once("inc/footer.php");?>
+
+    <script>
+      
+    </script>

@@ -1,381 +1,264 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-		
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
- <meta name="keywords"content="Multitrack Cargo Express and Courier Services, Logistics, mailroom , warehousing , best courier service worlwide, global logistics company, ecommerce delivery, ecommerce courier service ,local shipment, international shipment, same day delivery , logistics support, Amazon delivery, delivery services, delivery service for ecommerce, ecommerce delivery in Globally , deal dey delivery, Global logistics company">
-        
-<meta name="description" content="Multitrack Cargo Express is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<?php require_once("inc/header.php");?>
+   <title> Importer's Rep - Global Et Incolumem </title>
+   <!-- Document Wrapper-->
+    <div class="wrapper clearfix" id="wrapperParallax">
+      
+    <!-- navigation bar -->
+    <?php require_once("inc/topNavbar.php");?>
+     <section class="page-title page-title-3 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
+        <div class="bg-section"><img src="asset/images/page-titles/5.jpg" alt="Background"/></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="title text-center">
+                <div class="title-heading">
+                  <h1>Importer's Rep </h1>
+                </div>
+               
+              <!-- End .title -->
+            </div>
+            <!-- End .col-lg-8 -->
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+	<!-- Loading Popup -->
+<div id="loadingPop">
+    <input 
+        type="button" 
+        class="b-close" 
+        style="cursor:pointer; position:absolute; right:10px; top:5px; font-size:18px; font-weight:bold; display:none;" 
+        id="CloseMeNowLog" 
+    />
 
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-<meta http-equiv="ImageToolbar" content="No"/>
-<meta http-equiv="content-language" content="en-US"/>
-<meta name="title" content="Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide"/>
+</div>
 
-<meta property="og:type" content="Logistics and Courier Services" />
-<meta property="og:title" content="Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide" />
-<meta property="og:description" content="Multitrack Cargo Express is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
-<meta name="keywords">
-<meta property="og:site_name" content="Multitrack Cargo Express"/>
+<!-- Tracking Section -->
+<section class="ft1-tracking-section py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
 
+            <!-- Tracking Column -->
+            <div class="tracking-column col-lg-7 col-md-12 mb-4 mb-lg-0">
+                <div class="card shadow-sm p-4 border-0">
+                    <!-- Tracking Form -->
+                    <div class="tracking-form">
+                        <h4 class="mb-4 text-center">Track Your Shipment</h4>
+                        <form 
+                            method="post" 
+                            class="search-form" 
+                            id="frmTrack" 
+                            name="frmTrack" 
+                            action="" 
+                            onsubmit="return false"
+                        >
+                            <div class="form-group input-group">
+                                <input 
+                                    type="search" 
+                                    id="shipment_tracking_no" 
+                                    name="shipment_tracking_no" 
+                                    class="form-control" 
+                                    value="" 
+                                    placeholder="Enter Your Tracking Number" 
+                                    required
+                                />
+                                <div class="input-group-append">
+                                    <button 
+                                        class="btn btn-primary" 
+                                        name="submitTrackNo" 
+                                        onclick="trackNowFunc()"
+                                    >
+                                        Track & Trace 
+                                        <span class="fas fa-angle-double-right ml-2"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
-    <title>Logistics Rep for Importers :: Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide</title>
+            <!-- Featured Column -->
+            <div class="featured-column col-lg-5 col-md-12">
+                <div class="row">
+                    <!-- Feature Block 1 -->
+                    <div class="feature-block col-6 mb-4">
+                        <div class="card h-100 text-center p-4 shadow-sm border-0">
+                            <div class="icon mb-3">
+                                <i class="flaticon-discount" style="font-size: 2rem; color: #ff6f61;"></i>
+                            </div>
+                            <h6>Affordable Premium Shipping</h6>
+                        </div>
+                    </div>
 
-		
-	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+                    <!-- Feature Block 2 -->
+                    <div class="feature-block col-6 mb-4">
+                        <div class="card h-100 text-center p-4 shadow-sm border-0">
+                            <div class="icon mb-3">
+                                <i class="flaticon-shield-2" style="font-size: 2rem; color: #28a745;"></i>
+                            </div>
+                            <h6>Safe & Reliable Courier Services</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
-	<link rel="stylesheet" href="assets/css/flaticon.css">
-	<link rel="stylesheet" href="assets/css/jquery-ui.css">
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link rel="stylesheet" href="assets/css/animated-slider.css">
-	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/css/video.min.css">
-	<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-	<link rel="stylesheet" href="assets/css/slick.css">
-	<link rel="stylesheet" href="assets/css/rs6.css">
-	<link rel="stylesheet" href="assets/css/slick-theme.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-	<div id="preloader"></div>
-	<div class="up">
-		<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
-	</div>
+        </div>
+    </div>
+</section>
 
-
-<!-- Start of header section
-	============================================= -->
-	<?php require_once("header.php");?>
-		<!-- End9* of header section
-	============================================= -->
-
-
-
-
-
-
-
-
-<!-- Start of Breadcrumb section
-	============================================= -->
-	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="assets/img/bg/bread-bg.jpg">
-		<span class="background_overlay"></span>
-		<span class="design-shape position-absolute"><img src="assets/img/shape/tmd-sh.png" alt=""></span>
-		<div class="container">
-			<div class="ft-breadcrumb-content headline text-center position-relative">
-				<h2> Logistics Rep for Importers</h2>
-				<div class="ft-breadcrumb-list ul-li">
-					<ul>
-						<li><a href="./">Home</a></li>
-						<li> Logistics Rep for Importers</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>	
-<!-- End of Breadcrumb section
-	============================================= -->
-
-
-
-	
-	
-		
-	
-	
-	
-	
-	
-	
-	
-	<!-- Tracking Section -->
-		<section class="ft1-tracking-section">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="row clearfix">
-						<!-- Tracking Column -->
-						<div class="tracking-column col-lg-7 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<!-- Tracking Form -->
-								<div class="tracking-form">
-			<form method="post" class="search-form" id="frmTrack" name="frmTrack" action="" onsubmit="return false">
-										<div class="form-group">
-		
-<input type="search" id="shipment_tracking_no" name="shipment_tracking_no" value="" placeholder="Enter Your Tracking Number" required>
-
-
-<button class="theme-btn btn-style-two" name="submitTrackNo" onclick="trackNowFunc()">Track & Trace <span class="icon fas fa-angle-double-right"></span></button>
-
-
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-						
-						
-						
-						
-						
-						<!-- Featured Column -->
-						<div class="featured-column col-lg-5 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="row clearfix">
-								
-									<!-- Feature Block -->
-									<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-										<div class="inner-box">
-											<div class="icon flaticon-discount"></div>
-											<h6>Affordable Premium Shipping!</h6>
-										</div>
-									</div>
-									
-									<!-- Feature Block -->
-									<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-										<div class="inner-box">
-											<div class="icon flaticon-shield-2"></div>
-											<h6>Safe & Reliable <br> Courier Services!</h6>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Tracking Section -->
-
-		
-	
-	
-	
-	
-	
+      <section class="service-single case-study case-study-2 pb-70" id="service-single">
+        <div class="container">
+          <div class="row">
+            <!-- 
+            ============================
+            Sidebar Area
+            ============================
+            -->
+            <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-lg-0">
+              <div class="sidebar sidebar-case-study">
+                <!-- Start .widget-categories-->
+                <div class="widget widget-categories">
+                  <div class="widget-title">
+                    <h5>transport services</h5>
+                  </div>
+                  <div class="widget-content">
+                    <ul class="list-unstyled">
+                      
+                      <li><a href="international-freight">Air freight</a></li>
+                      <li><a href="domestic-freight">Domestic freight</a></li>
+                      <li><a href="freight-forwarder">Freight Forwarding</a></li>
+                      <li><a href="freight-consultation">Freight-consultation</a></li> 
+                    </ul>
+                  </div>
+                </div>
+                <!-- End .widget-categories -->
 
 
+                <!-- Start .widget-reservation-->
+                <div class="widget widget-reservation"><img src="asset/images/blog/sidebar/reservation.jpg" alt="Background Image"/>
+                  <div class="widget-content">
+                    <h5>International Importer's Rep </h5>
+                    <p>Importers generally rely on us for arranging Customs trade compliance regulating the imports of their products - Customs Clearance Process for novice.</p><a class="btn btn--transparent btn--inverse btn--block" href="contact-us">Schedule An Appointment</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End .col-lg-4 -->
+         
+      <!-- Main Content Area -->
+      <div class="col-sm-12 col-md-12 col-lg-8">
+        <div class="case-study-entry">
+          <div class="entry-content">
+            <div class="entry-bio">
+             <h5>International Importer's Rep </h5>
+               
+        <p>Importers generally rely on us for arranging Customs trade compliance regulating the imports of their products - Customs Clearance Process for novice.</p>
+<p>
+Importers experience our logistics professionals managing their inbound sea shipments' complete visibility from their suppliers, FOB origin services, international movement, destination & delivery to door for a nominal fee. Services listed below can be utilized in part or full by a regular importer giving him many advantage & savings of time & money.
+</p>
 
-
-<!-- Start of About section
-	============================================= -->
-	<section id="ft-thx-about-3" class="ft-thx-about-section-3">
-		<div class="container">
-			<div class="ft-thx-about-content-3">
-				<div class="row">
-					<div class="col-lg-6 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-						<div class="ft-thx-about-img-3 position-relative">
-							<div class="ft-thx-ab-shape1 position-absolute"><img src="assets/imgs/bg/vector-1.png" alt=""></div>
-							<div class="ft-thx-ab-img">
-								<img src="assets/imgs/about/ab4.jpg" alt="">
-							</div>
-							<div class="ft-thx-ab-inner-img1">
-								<img src="assets/imgs/about/ab5.jpg" alt="">
-							</div>
-							<div class="ft-thx-ab-inner-img2">
-								<img src="assets/imgs/about/ab6.jpg" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="ft-thx-about-text-3">
-							<div class="ft-thx-section-title-3 headline pera-content wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-								<h2>
- Logistics Rep <br>for Importers
-</h2>
-								
-								
-								
-								
-								<p>
-								 Importers generally rely on us for arranging Customs trade 
-								 compliance regulating the imports of their products - Customs Clearance Process for novice. 
-								</p>
-								
-								
-								
-								
-					<br>			
-								
-		<p>
-		  Importers experience our logistics professionals managing their inbound sea shipments' complete visibility from their suppliers, 
-		  FOB origin services, international movement, destination & delivery to door for a nominal fee. Services listed below can be utilized in part 
-		  or full by a regular importer giving him many advantage & savings of time & money.
-		</p>						
-								
-								
-								
-							</div>
-							
-							
-							
-							
-							
-							<div class="ft-thx-about-list-item-wrapper-3">
-							
-							
-														
-							
-								<div class="ft-thx-about-list-item-3 d-flex align-items-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-									<div class="ft-thx-inner-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-community"></i>
-									</div>
-									<div class="ft-thx-inner-text headline pera-content">
-										<h3>Carrier Choice</h3>
-										
-										<p>
-										 Shipments are arranged with the shipping line you prefer of with whom you have Service Contract. 
-										 During peak season, blocking space on carrier, using the influence to make the vessel desired. 
-										 Last minute rush in facilitating the load on board the vessel regardless if it requires all 
-										 night stay at port. 
-										</p>
-									</div>
-								</div>
-								
-								
-								
-								
-								
-								
-								<div class="ft-thx-about-list-item-3 d-flex align-items-center wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-									<div class="ft-thx-inner-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-delivery-truck"></i>
-									</div>
-									<div class="ft-thx-inner-text headline pera-content">
-										<h3>Customs Broker Coordination</h3>
-										<p>
-Your broker clearing goods will get complete documentation on time with shipment status 
-information to enable them to expedite customs clearance in time to avoid high demurrage & detention charge.
-										</p>
-									</div>
-								</div>
-								<div class="ft-thx-about-list-item-3 d-flex align-items-center wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-									<div class="ft-thx-inner-icon d-flex align-items-center justify-content-center">
-										<i class="flaticon-train"></i>
-									</div>
-									<div class="ft-thx-inner-text headline pera-content">
-										<h3>Documentation Distribution</h3>
-										
-										<p>
-										
-
-Shipment documents timely distribution to facilitate & expedite customs clearance, avoid demurrage and save time. 
-Post shipment documents until reached in right hands, the process is not complete the hindrance causes last minute delays, costs & frustration. Experienced in making desired changes due to the delays in production or carrier such as arranging airfreight/sea-air.
-
-										</p>
-										
-									</div>
-								</div>
-								
-								
-								
-								
-								
-								
-
-								
-								
-							</div>
-							<!--
-							<div class="ft-thx-btn-2">
-								<a class="d-flex justify-content-center align-items-center" href="#">
-								Discover More</a>
-							</div>
-							-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<!-- End of About section
-	============================================= -->	
-
-<!-- Start of help section
-	============================================= -->
-	<!-- End of help section
-	============================================= -->
-
-<!-- Start of service section
-	============================================= -->
-	<section id="ft-thx-service-3" class="ft-thx-service-section-3 position-relative" data-background="assets/imgs/bg/sr-bg.jpg">
-		<span class="ft-thx-service-shape position-absolute"><img src="assets/imgs/bg/shape-02.png" alt=""></span>
-		
-		
-		
-		
-		
-		
-		<div class="container">
-			<div class="ft-thx-section-title-3 text-center headline pera-content">
-				<h2 style="font-size:22px;">Your Representation</h2>
-				
-				
-				
-				<p style="max-width:100%">
-				Representing your interest from origin, with our selectively picked experienced counterparts at all major world ports, 
-				we bring everybody in line to stream line the 
-				process which might otherwise cause delays & additional unnecessary expenses in transportation.
-				</p>
-				
-				
-				
-				
-			</div>
 			
-			
-			
-			
-			
-			
-			
-					</div>
-	</section>		
+
+    
+    <h5 class="text-secondary"><i>10+ Years Of Excellent Services</i></h5>
+            <h5>Carrier Choice</h5>
+                  <p>Shipments are arranged with the shipping line you prefer of with whom you have Service Contract. During peak season, blocking space on carrier, using the influence to make the vessel desired. Last minute rush in facilitating the load on board the vessel regardless if it requires all night stay at port.
+</p>
+			<h5>Customs Broker Coordination</h5>
+				<p>Your broker clearing goods will get complete documentation on time with shipment status information to enable them to expedite customs clearance in time to avoid high demurrage & detention charge.</p>
+          
+       		 <h5>Documentation Distribution</h5>
+			 <p>Shipment documents timely distribution to facilitate & expedite customs clearance, avoid demurrage and save time. Post shipment documents until reached in right hands, the process is not complete the hindrance causes last minute delays, costs & frustration. Experienced in making desired changes due to the delays in production or carrier such as arranging airfreight/sea-air.
+</p>
+            </div>
+          </div>
+        </div>
+
+
+            </div>
+            <!-- End .col-lg-8-->
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+
+		   <!--
+      ============================
+      Features #1 Section
+      ============================
+      -->
+      <section class="features bg-gray" id="features-1" style="margin-top :-110px;">
+        <div class="container">
+          <div class="heading heading-4">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <p class="heading-subtitle">Safe & Reliable Cargo Solutions! </p>
+                <h2 class="heading-title">Managing Logistics For World’s Multinational Companies.</h2>
+              </div>
+              <div class="col-12 col-lg-6">
+                <p class="heading-desc">Our global logistics expertise, advanced supply chain technology & customized logistics solutions will help you analyze, develop and implement successful supply chain management strategies from end-to-end.</p>
+                <div class="actions-container"><a class="btn btn-transparent" href="about-us">About us </a>
+                  <div class="employee-info"> 
+                    <div class="employee-img"> <img src="asset/images/testimonial/5.jpg" alt="image"/></div>
+                    <div class="employee-body"> 
+                      <h6>+447414487332</h6>
+                      <p>Sales Representative</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End .col-lg-6-->
+          </div>
+          <!-- End .row-->
+          <div class="row">
+            <div class=" col-sm-6 col-md-6 col-lg-4">
+              <div class="feature-panel bg-white">
+                <div class="feature-icon"><i class="flaticon-035-plane"></i></div>
+                <div class="feature-content"><i class="flaticon-035-plane"></i>
+                  <h4>air freight<br/>services</h4>
+                  <p>We can provide with the comprehensive service in the sphere of urgent, valuable, fragile or any cargoes conscientious accelerated delivery by air.</p><a href="air-freight-carrier"><i class="icon-arrow-right"></i> read more</a>
+                </div>
+              </div>
+              <!-- End .feature-panel-->
+            </div>
+            <div class=" col-sm-6 col-md-6 col-lg-4">
+              <div class="feature-panel bg-white">
+                <div class="feature-icon"><i class="flaticon-010-cargo"></i></div>
+                <div class="feature-content"><i class="flaticon-010-cargo"></i>
+                  <h4>ocean freight<br/>services</h4>
+                  <p>We provides with the types of basic conditions International sea transportation is implemented by our partners’ the largest ocean carriers.</p><a href="ocean-freight-forwarding"><i class="icon-arrow-right"></i> read more</a>
+                </div>
+              </div>
+              <!-- End .feature-panel-->
+            </div>
+            <div class=" col-sm-6 col-md-6 col-lg-4">
+              <div class="feature-panel bg-white">
+                <div class="feature-icon"><i class="flaticon-004-trailer-1"></i></div>
+                <div class="feature-content"><i class="flaticon-004-trailer-1"></i>
+                  <h4>road freight<br/>services</h4>
+                  <p>We provides a wide range of transportation services including quality international road transportation of cargoes &amp; goods arriving from the ports</p><a href="road-freight-forwarding"><i class="icon-arrow-right"></i> read more</a>
+                </div>
+              </div>
+              <!-- End .feature-panel-->
+            </div>
+          </div>
+          <!-- End .row-->
+          <div class="more-features"> 
+            <p>Logistic & Transport Solutions Saves Your Time. <a href="contact-us">Find your solution </a></p>
+          </div>
+        </div>
+        <!-- End .container-->
+      </section>
+      </section>
 
 
 
+<?php require_once("inc/footer.php");?>
 
-
-<!-- End of cta section
-	============================================= -->
-
-<!-- Start Of Footer section
-	============================================= -->
-	<?php require_once("footer.php");?>	
-<!-- End of Footer section
-	============================================= -->	
-
-	<!-- For Js Library -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/jquery-ui.min.js"></script>
-	<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="assets/js/appear.js"></script>
-	<script src="assets/js/slick.js"></script>
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/js/jquery.filterizr.js"></script>
-	<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/jquery.cssslider.min.js"></script>
-	<script src="assets/js/rbtools.min.js"></script>
-	<script src="assets/js/rs6.min.js"></script>
-	<script src="assets/js/parallax.min.js"></script>
-	<script src="assets/js/script.js"></script>
-	
-	
-	
+	<script src="asset/js/jquery.min.js"></script>
 	<script src="js/jquery.bpopups2.min.js"></script>
 <script language="javascript" type="text/javascript">
 
@@ -503,7 +386,3 @@ return false;
 
 
 </script>
-
-
-</body>
-</html>				

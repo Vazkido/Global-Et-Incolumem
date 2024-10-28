@@ -132,7 +132,7 @@ require_once("../config.php");
         ***********************************-->
         <div class="nav-header">
             <a href="admin-index" class="brand-logo">
-                <img src="images/logo-text.png" class="img-fluid">
+            	<img src="./favicon.ico" alt="">
             </a>
 
             <div class="nav-control">

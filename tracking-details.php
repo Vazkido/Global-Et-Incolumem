@@ -177,28 +177,28 @@ $country_name[]=sanitizeContent($cn_row["country_name"]);
 		
 			<meta charset="UTF-8">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
- <meta name="keywords"content="Multitrack Cargo Express and Courier Services, Logistics, mailroom , warehousing , best courier service worlwide, global logistics company, ecommerce delivery, ecommerce courier service ,local shipment, international shipment, same day delivery , logistics support, Amazon delivery, delivery services, delivery service for ecommerce, ecommerce delivery in Globally , deal dey delivery, Global logistics company">
+ <meta name="keywords"content="Global Et Incolumem and Courier Services, Logistics, mailroom , warehousing , best courier service worlwide, global logistics company, ecommerce delivery, ecommerce courier service ,local shipment, international shipment, same day delivery , logistics support, Amazon delivery, delivery services, delivery service for ecommerce, ecommerce delivery in Globally , deal dey delivery, Global logistics company">
         
-<meta name="description" content="Multitrack Cargo Express is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
+<meta name="description" content="Global Et Incolumem is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <meta http-equiv="ImageToolbar" content="No"/>
 <meta http-equiv="content-language" content="en-US"/>
-<meta name="title" content="Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide"/>
+<meta name="title" content="Global Et Incolumem | Express Delivery, Courier &amp; Shipping Services | Worlwide"/>
 
 <meta property="og:type" content="Logistics and Courier Services" />
-<meta property="og:title" content="Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide" />
-<meta property="og:description" content="Multitrack Cargo Express is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
+<meta property="og:title" content="Global Et Incolumem | Express Delivery, Courier &amp; Shipping Services | Worlwide" />
+<meta property="og:description" content="Global Et Incolumem is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers">
 <meta name="keywords">
-<meta property="og:site_name" content="Multitrack Cargo Express"/>
+<meta property="og:site_name" content="Global Et Incolumem"/>
 
 
-    <title>Tracking Details :: Multitrack Cargo Express | Express Delivery, Courier &amp; Shipping Services | Worlwide</title>
+    <title>Tracking Details :: Global Et Incolumem | Express Delivery, Courier &amp; Shipping Services | Worlwide</title>
 
-		
-		<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <link href="asset/images/favicon/favicon.png" rel="icon"/>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
@@ -239,17 +239,18 @@ $country_name[]=sanitizeContent($cn_row["country_name"]);
 
 	</head>
 	<body>
-		<div id="preloader"></div>
-		<div class="up">
+		<!-- <div id="preloader"></div> -->
+		<!-- <div class="up">
 			<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
 		</div>
-		
+		 -->
 		
 		
 				
 <!-- Start of header section
 	============================================= -->
-	<?php require_once("header.php");?>
+
+
 	<!-- End of header section
 	============================================= -->
 
@@ -284,62 +285,7 @@ $country_name[]=sanitizeContent($cn_row["country_name"]);
 	
 	
 	<!-- Tracking Section -->
-		<section class="ft1-tracking-section">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="row clearfix">
-						<!-- Tracking Column -->
-						<div class="tracking-column col-lg-7 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<!-- Tracking Form -->
-								<div class="tracking-form">
-			<form method="post" class="search-form" id="frmTrack" name="frmTrack" action="" onsubmit="return false">
-										<div class="form-group">
 		
-<input type="search" id="shipment_tracking_no" name="shipment_tracking_no" value="" placeholder="Enter Your Tracking Number" required>
-
-
-<button class="theme-btn btn-style-two" name="submitTrackNo" onclick="trackNowFunc()">Track & Trace <span class="icon fas fa-angle-double-right"></span></button>
-
-
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-						
-						
-						
-						
-						
-						<!-- Featured Column -->
-						<div class="featured-column col-lg-5 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="row clearfix">
-								
-									<!-- Feature Block -->
-									<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-										<div class="inner-box">
-											<div class="icon flaticon-discount"></div>
-											<h6>Affordable Premium Shipping!</h6>
-										</div>
-									</div>
-									
-									<!-- Feature Block -->
-									<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-										<div class="inner-box">
-											<div class="icon flaticon-shield-2"></div>
-											<h6>Safe & Reliable <br> Courier Services!</h6>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 		<!-- End Tracking Section -->
 		
 	
@@ -814,7 +760,7 @@ else{
 <!-- Start of Footer   section
 	============================================= -->
 	
-	<?php require_once("footer.php");?>
+
 			
 <!-- End of FAQ why choose  section
 	============================================= -->	

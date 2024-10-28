@@ -10,7 +10,7 @@
               <div class="col-12 col-lg-9 col-xl-8">
                 <div class="widget-newsletter">
                   <div class="widget-content">
-                    <p>Sign up for industry alerts,<br/>insights from Equita.</p>
+                    <p>Sign up for industry alerts,<br/>insights from Global Et Incolumem </p>
                     <form class="form-newsletter mailchimp">
                       <input class="form-control" type="email" name="email" placeholder="Your Email Address"/>
                       <input class="btn btn--primary" type="submit" value="sign up!"/>
@@ -32,7 +32,7 @@
                 <div class="widget-content">
                   <p>Global Et Incolumem is a leading logistics and distribution services company established in 2009. We offer a wide array of express courier and logistic support solutions to our various customers</p>
                   <!-- Start .module-social-->
-                  <div class="module module-social"><a class="share-facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"> </i></a><a class="share-instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a><a class="share-twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></div>
+                  <!-- <div class="module module-social"><a class="share-facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"> </i></a><a class="share-instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a><a class="share-twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></div> -->
                   <!-- End .module-social-->
                 </div>
               </div>
@@ -70,8 +70,8 @@
                 <div class="widget-content">
                   <p>If you have any questions or need help, feel free to contact with our team.</p>
                   <ul> 
-                    <li class="phone"><a href="tel:+01061245741"><i class="fas fa-phone-alt"></i> 01061245741</a></li>
-                    <li class="address"><a href="javascript:void(0)">2307 Beverley Rd Brooklyn, New York 11226 United States.</a></li>
+                    <li class="phone"><a href="tel:+01061245741"><i class="fas fa-phone-alt"></i> 447414487332</a></li>
+                    <li class="address"><a href="javascript:void(0)">Street 43 Marylebone High St London</a></li>
                   </ul>
                 </div>
               </div>
@@ -85,7 +85,7 @@
         <div class="footer-bottom">
           <div class="row">
             <div class="col-md-12 col-md-12 text--center footer-copyright">
-              <div class="copyright"><span>&copy; Global Et Incolumem, With Love by</span><a href="https://1.envato.market/kP9BV"> Zytheme.com</a></div>
+              <div class="copyright"><span>&copy; Global Et Incolumem </span><a href="#"> All Rights Reserved</a></div>
             </div>
           </div>
           <!--  End .row-->
@@ -101,6 +101,16 @@
     <script src="asset/js/vendor.min.js"></script>
     <script src="asset/js/functions.js"></script>
   <!-- Code injected by live-server -->
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
 <script>
 	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
